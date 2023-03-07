@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <ol>
+        <li> 
+            <a href="/1.html"> 로그인 페이지</a>
+        </li>
+    </ol>
+
+    <a href="./1.html">눈에보이는텍스트🕵️‍♂️</a>
+    <!-- <a href="#">최상단으로 이동</a> -->
+
+    <a href="#">위로 이동</a>
+
+    <a href="#list">곧바로 list 로 이동 </a>
+
+    <div id="list">
+        <h1>두 번째 리스트</h1>
+        <ol start="50">
+            <li>start 속성을 활용하면, 50부터 시작하는 list itme 만들 수 있음.</li>
+            <li>51번째 </li>
+        </ol>
+    </div>
+
+
+    <img src="./a-bunch-of-cars-sitting-on-top-of-a-blue-surface-an-illustration-of-by-jeonseok-lee-unsplash-kar-449043918.png" 
+        alt="오잉 잘 안 불러와졌네">
+
+    <!-- table 시작 -->
+    <table style="width: 100%; border-collapse: collapse;">
+
+        <caption> 여기가 caption 이야 </caption>
+
+        <!-- 테이블 열 당 사이즈를 설정 -->
+        <col style="width : 50px">
+        <col style="width : 100px">
+        <col style="width : 100px">
+        <col style="width : 100px">
+        <col style="width : 200px">
+
+        <!-- 첫 번째 table row, 가로줄 태그가 tr-->
+        <tr>
+            <!-- 가로줄 안에서 첫 번재 table data -->
+            <td style="border: 1px solid black"> 1</td>
+            <!-- 가로줄 안에서 두 번째 data, 
+                    table header 라서 두껍고, 가운데 정렬로 나옴 -->
+            <th style="border: 1px solid black"> 1</th>
+            <td style="border: 1px solid black"> 1</td>
+            <td style="border: 1px solid black"> 1</td>
+            <td style="border: 1px solid black"> 1</td>
+        </tr>
+
+        <!-- 2nd table row, 가로줄 태그가 tr-->
+        <tr>
+            <td style="border: 1px solid black">2번째 가로줄 중 첫 번째 data</td>
+            <th style="border: 1px solid black">2번째 가로줄 중 두 번째 data</th>
+            <th style="border: 1px solid black">2번째 가로줄 중 세 번째 data</th>
+            <th style="border: 1px solid black">2번째 가로줄 중 네 번째 data </th>
+            <th style="border: 1px solid black">2번째 가로줄 중 다섯번째 data </th>
+
+        </tr>
+
+        <!-- 3rd table row, 가로줄 태그가 tr-->
+        <tr>
+            <!-- rowspan 시도 
+                    row 방향으로 뻗어져 나간다. (span)
+                    원래 있던 d 값들은 밀려나간다 -> 그래서 삐져나가게 된다.   -->
+            <td rowspan="3" style="border: 1px solid black; background-color:beige; text-align: center; "> rowspan, color, text-align 시도</td>
+            <th style="border: 1px solid black"> 3</th>
+            <td style="border: 1px solid black"> 3</td>
+            <td style="border: 1px solid black"> 3</td>
+            <td style="border: 1px solid black"> 3</td>
+        </tr>
+        
+        <!-- 4th table row, 가로줄 태그가 tr-->
+        <tr>
+            <td style="border: 1px solid black"> d</td>
+            <th style="border: 1px solid black"> d</th>
+            <!-- colspan 시도 
+                    column 방향으로 span 된다. 
+                    원래 그 곳에 있던 값들은 밀려간다.  -->
+            <td colspan="2" style="border: 1px solid black; background-color: antiquewhite; text-align: center;"> d</td>
+            <td style="border: 1px solid black"> d</td>
+            <td style="border: 1px solid black"> d</td>
+        </tr>
+
+        
+        <!-- 5th table row, 가로줄 태그가 tr-->
+        <tr>
+            <td style="border: 1px solid black"> 4</td>
+            <th style="border: 1px solid black"> 1</th>
+            <td style="border: 1px solid black"> 1</td>
+            <td style="border: 1px solid black"> 1</td>
+            <td style="border: 1px solid black"> 1</td>
+        </tr>
+
+
+
+
+    </table>
+
+    
+</body>
+</html>
